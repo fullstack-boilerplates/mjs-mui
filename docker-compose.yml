@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  web:
+    build: ./
+    ports:
+      - 3000:3000
+    environment:
+      - ES_HOST=elasticsearch:9200
+    restart: always
+    command: node --unhandled-rejections=strict app.js
+
+volumes: 
+  elasticsearch:
