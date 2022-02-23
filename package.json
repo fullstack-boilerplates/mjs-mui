@@ -50,8 +50,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buid": "shack build",
-    "start": "shack start -e .js -w dist",
+    "build": "shack build",
+    "start": "shack start -e .js -s dist",
     "dev": "shack dev -e .js -s public"
   },
   "repository": {

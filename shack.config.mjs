@@ -67,7 +67,7 @@ export default {
     new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: "public", to: "dest" },
+        { from: "public", to: "" },
       ],
     }),
   ],
